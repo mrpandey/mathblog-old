@@ -1,0 +1,20 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               mrpandey's Math Blog
+tagline:             ''
+description:         'Here I post stuff on mathematics and theoretical computer science.'
+url:                 http://math.mrpandey.com
+baseurl:             ''
+paginate:            5
+paginate_path:       "page:num"
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# About/contact
+author:
+  name:              Avinash Pandey
