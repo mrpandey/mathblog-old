@@ -4,7 +4,8 @@ title: Home
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% assign sorted_posts = paginator.posts | sort: 'updated_on' | reverse %}
+  {% for post in sorted_posts %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
@@ -12,7 +13,7 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ post.date | date_to_string }}{% if post.show_updated %},&nbsp; Updated on {{ post.updated_on | date_to_string }}{% endif %}</span>
 
     {{ post.content }}
   </div>

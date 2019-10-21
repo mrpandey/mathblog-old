@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Beggar's Method"
+show_updated: false
+updated_on: 2018-04-29 00:00:00 +0530
 ---
 
 ### Problem
