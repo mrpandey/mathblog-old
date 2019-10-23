@@ -12,6 +12,7 @@ I was trying to solve [this](https://www.spoj.com/problems/GNYR09F/) problem on 
 I even tried looking for hints in comments and I came to know it's a 3D dynamic-programming problem. Some of the users were even able to reduce it to a 2D technique.
 
 Then I realized I need to rethink the entire approach. So somehow, I started treating it like a combinatorics problem and I landed on a solution — a formula that guarantees linear time execution. I love moments like these when you solve an interesting problem with an uncommon approach. And that's why I am writing this post.
+<!--end_excerpt-->
 
 ### The Problem
 

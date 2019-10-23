@@ -9,6 +9,7 @@ url:                 http://math.mrpandey.com
 baseurl:             ''
 paginate:            5
 paginate_path:       "page:num"
+excerpt_separator:   <!--end_excerpt-->
 
 # Build settings
 plugins:

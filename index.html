@@ -15,7 +15,9 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}{% if post.show_updated %},&nbsp; Updated on {{ post.updated_on | date_to_string }}{% endif %}</span>
 
-    {{ post.content }}
+    {{ post.excerpt }}
+
+    <span class="read-more"><a href="{{ site.baseurl }}{{ post.url }}">Read More</a></span>
   </div>
   {% endfor %}
 </div>
