@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SPOJ Problem: Adjacent Bit Counts"
+categories: [combinatorics, number-theory]
 show_updated: false
 updated_on: 2018-04-30 00:00:00 +0530
 ---

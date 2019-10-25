@@ -15,6 +15,12 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}{% if post.show_updated %},&nbsp; Updated on {{ post.updated_on | date_to_string }}{% endif %}</span>
 
+    {% if post.categories %}
+      <span class="categories">
+        &diams; {% for category in post.categories %}<a href="/category/{{ category }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}
+      </span>
+    {% endif %}
+
     {{ post.excerpt }}
 
     <span class="read-more"><a href="{{ site.baseurl }}{{ post.url }}">Read More</a></span>
