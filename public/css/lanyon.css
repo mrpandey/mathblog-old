@@ -338,6 +338,23 @@ a.sidebar-nav-item:focus {
   margin-bottom: 1rem;
 }
 
+/* Category buttons on category pages */
+
+a.category-button {
+  font-size: .8rem;
+  text-decoration: none;
+  padding: .2rem 0.5rem;
+  border-radius: 4px;
+  margin: 0.1rem;
+  background-color: #90a959;
+  color: #eeeeee;
+}
+
+a.category-active {
+  background-color: #555555;
+  cursor: text;
+}
+
 /* Related posts */
 .related {
   padding-top: 2rem;
