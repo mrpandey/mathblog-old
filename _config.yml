@@ -4,7 +4,7 @@ permalink:           pretty
 # Setup
 title:               mrpandey's Math Blog
 tagline:             ''
-description:         'Here I post stuff on mathematics and theoretical computer science.'
+description:         'Just another blog on mathematics'
 url:                 http://math.mrpandey.com
 baseurl:             ''
 paginate:            5
